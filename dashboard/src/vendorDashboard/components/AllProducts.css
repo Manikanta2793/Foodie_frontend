@@ -1,0 +1,102 @@
+.products-section {
+  padding: 2rem;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.no-products-message {
+  text-align: center;
+  color: #6c7a89;
+  font-size: 1.2rem;
+  padding: 3rem;
+  font-weight: 600;
+}
+
+.products-table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(44, 62, 80, 0.1);
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.products-table thead {
+  background: linear-gradient(120deg, #2c3e50, #34495e);
+}
+
+.products-table thead th {
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+}
+
+.products-table tbody tr {
+  border-bottom: 1px solid #e7ecf3;
+  transition: background-color 0.2s ease;
+}
+
+.products-table tbody tr:hover {
+  background-color: #f8fbff;
+}
+
+.products-table tbody td {
+  padding: 1.2rem 1.5rem;
+  color: #2c3e50;
+}
+
+.product-name {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.product-price {
+  font-weight: 700;
+  color: #3498db;
+  font-size: 1.1rem;
+}
+
+.product-image {
+  text-align: center;
+}
+
+.product-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #e7ecf3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-actions {
+  text-align: center;
+}
+
+.delete-btn {
+  padding: 0.6rem 1.2rem;
+  background: #e74c3c;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(231, 76, 60, 0.2);
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(231, 76, 60, 0.3);
+}
+
+.delete-btn:active {
+  transform: translateY(0);
+}
